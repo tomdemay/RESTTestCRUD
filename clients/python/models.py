@@ -6,11 +6,6 @@ class Employee:
         self.email = None
         self.__dict__.update(entries)
 
-class Employees:
-    def __init__(self, **entries):
-        self.__dict__.update(entries)
-        self.employee = Employee(**entries.get("employee"))
-
 class Embedded:
     def __init__(self, **entries):
         self.__dict__.update(entries)
