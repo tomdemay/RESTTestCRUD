@@ -7,6 +7,5 @@ import java.util.List;
 
 @Data
 public class Embedded {
-    private List<Employee> employees = new ArrayList<Employee>();
-
+    private List<Employee> employees = new ArrayList<>();
 }
